@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prospera Union</title>
+        <!-- Favicon -->
+        <link rel="icon" href="./Assets/img/Prospera Logo.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="./Assets/img/Prospera Logo.ico" type="image/x-icon" />
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="main.html">
+                    <img src="./Assets/img/Prospera Logo.png" alt="Prospera Union Logo" width="100" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="produk.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakUs.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero position-relative">
+            <img src="./Assets/img/cargo_5.jpeg" class="img-fluid" alt="Cargo Ship" />
+            <div class="hero-text position-absolute text-center text-white">
+                <h1>Prospera Union</h1>
+                <p>Your trusted partner in delivering top-quality products worldwide. Providing only the best, trusted products with guaranteed excellence.</p>
+            </div>
+        </section>
+
+        <!-- Vision & Mission Section -->
+        <section class="vision-mission py-5 text-center bg-light">
+            <div class="container">
+                <h2 class="mb-4">Vision & Mission</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./Assets/img/Vision_Logo.png" alt="High-Quality Products" width="150" class="mb-3" />
+                        <p>To become a trusted global partner in providing high-quality products, building strong long-term relationships as a reliable supplier chain to meet all your import needs.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./Assets/img/Misi_Logo.png" alt="High-Quality Products" width="150" class="mb-3" />
+                        <ul class="text-left">
+                            <li>Providing the best products: Committed to delivering high-quality products that meet global standards.</li>
+                            <li>Building long-term partnerships: Focused on creating sustainable and mutually beneficial business relationships with every partner.</li>
+                            <li>Ensuring trust and excellence: Offering reliable services with guaranteed top-quality in every aspect of our products.</li>
+                            <li>Prioritizing customer needs: Becoming a dependable solution for all import needs with fast, efficient, and professional service.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-us py-5 bg-warning text-center">
+            <div class="container">
+                <h2 class="mb-4">Why Choose Us?</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <img src="./Assets/img/Produk_Logo.png" alt="High-Quality Products" width="150" class="mb-3" />
+                        <h3>High-Quality Products</h3>
+                        <p>We focus only on the best products that meet international standards, ensuring quality and customer satisfaction.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="./Assets/img/Partners_Logo.png" alt="Trusted Partners" width="150" class="mb-3" />
+                        <h3>Trusted Partners</h3>
+                        <p>As the preferred choice for a reliable supply chain, we are committed to building strong, long-term partnerships with every business partner.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="./Assets/img/Keunggulan_Logo.png" alt="Excellence in Every Process" width="150" class="mb-3" />
+                        <h3>Excellence in Every Process</h3>
+                        <p>From product selection to delivery, we apply standards of excellence at every stage of our supply chain, ensuring smooth transactions and customer satisfaction.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img src="./Assets/img/Komitmen_Logo.png" alt="Commitment to Customers" width="150" class="mb-3" />
+                        <h3>Commitment to Customers</h3>
+                        <p>We always listen to our customers' needs and provide tailored solutions, ensuring mutually beneficial business relationships.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img src="./Assets/img/Trust_Logo.png" alt="Integrity and Trust" width="150" class="mb-3" />
+                        <h3>Integrity and Trust</h3>
+                        <p>Trust is our priority in all aspects of the business. We maintain integrity at every step, from production to distribution, to create solid relationships with our partners.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlight Produk Section -->
+        <section class="highlight-products py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Our Featured Products</h2>
+                <div class="row">
+                    <!-- Product 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="./Assets/img/5.jpg" class="card-img-top" alt="Charcoal Briquette" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Charcoal Briquette</h5>
+                                <!-- Button to open Gallery Modal -->
+                                <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#galleryModal">View Gallery</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Modal -->
+                    <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="galleryModalLabel">Charcoal Briquette - Gallery</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/5.jpg" class="img-fluid" alt="Charcoal Briquette Image 1" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/briket_1.JPG" class="img-fluid" alt="Charcoal Briquette Image 2" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/briket_2.JPG" class="img-fluid" alt="Charcoal Briquette Image 3" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/briket_3.JPG" class="img-fluid" alt="Charcoal Briquette Image 4" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/briket_4.JPG" class="img-fluid" alt="Charcoal Briquette Image 5" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/cargo_3.jpeg" class="img-fluid" alt="Charcoal Briquette Image 6" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="./Assets/img/teak_1.jpg" class="card-img-top" alt="Product 2" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Teak Furniture</h5>
+                                <!-- Button to open Gallery Modal -->
+                                <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#teakModal">View Gallery</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Modal -->
+                    <div class="modal fade" id="teakModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="galleryModalLabel">Teak Furniture - Gallery</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/1_teak.png" class="img-fluid" alt="Teak Furniture Image 1" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/2_teak.png" class="img-fluid" alt="Teak Furniture Image 2" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/3_teak.png" class="img-fluid" alt="Teak Furniture Image 3" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/4_teak.png" class="img-fluid" alt="Teak Furniture Image 4" />
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="./Assets/img/5_teak.png" class="img-fluid" alt="Teak Furniture Image 5" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="./Assets/img/cengkeh.jpeg" class="card-img-top" alt="Product 3" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Spice</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Button "More Products" -->
+        <div class="text-center mt-2 mb-4">
+            <a href="produk.html" class="btn btn-secondary"> More Products </a>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white pt-5 pb-4">
+            <div class="container text-center text-md-left">
+                <div class="row text-center text-md-left">
+                    <!-- Company Info -->
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                        <img src="./Assets/img/Prospera Logo.png" alt="Prospera Union Logo" width="200" />
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
+                        <p><i class="fas fa-envelope mr-3"></i> prosperaunion@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> +62 813 9163 8040</p>
+                        <p><i class="fas fa-map-marker-alt mr-3"></i> Semarang, Indonesia</p>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                        <a href="https://www.instagram.com/prosperaunion/" class="text-white mr-4">
+                            <i class="fab fa-instagram">Instagram</i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Copyright Section -->
+                <div class="row mt-4">
+                    <div class="col-md-12 text-center">
+                        <p class="mb-0">&copy; 2024 Prospera Union. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- FontAwesome Icons (optional) -->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <!-- Bootstrap JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
