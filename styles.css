@@ -62,3 +62,8 @@
     object-fit: cover; /* Memastikan gambar tetap proporsional dan bagian yang tidak sesuai dipotong */
     border-radius: 8px; /* Opsional: menambahkan sudut melengkung pada gambar */
 }
+.card-img-top {
+    width: 100%; /* Gambar mengikuti lebar penuh dari kontainer kartu */
+    height: 200px; /* Atur tinggi tetap untuk gambar */
+    object-fit: cover; /* Menyesuaikan gambar agar tetap proporsional */
+}
